@@ -1,0 +1,176 @@
+.header{
+    /*position: 4px;*/
+    margin: auto;
+}
+
+#LevelUp {
+    color: black;
+    font-family: Graphik,sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+#other {
+    text-decoration: none;
+    margin-top: 28px;
+    margin-left: 47px;
+    word-spacing: 20px;
+}
+
+#other> a {
+    text-decoration: none;
+    color: black;
+    font-family: Graphik,sans-serif;
+    font-size: 15px;
+}
+
+.header_div {
+    margin-left: 80px;
+    display: flex;
+}
+
+.partTwo {
+    margin-left: 30px;
+    margin-top: 85px;
+}
+.partTwo h3 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.mainDiv {
+    margin: 0%;
+}
+.row1 {
+    display: flex;
+    margin-left: -2px;
+    margin-top: 4px;
+}
+.row1 img {
+    margin-left: 32px;
+    width: 387px;
+    height: 435px;
+}
+.row1 h5 {
+    margin-left: 32px;
+    line-height: 2px;
+}
+.mainDiv a {
+    text-decoration: none;
+}
+.mainDiv a:visited {
+    color: inherit;
+}
+.mainDiv #colr {
+    color: #0e855b;
+}
+.row2 {
+    display: flex;
+    margin-top: 4px;
+}
+.row2 img {
+    margin-left: 30px;
+    width: 283px;
+    height: 335px;
+}
+.row2 h5 {
+    margin-left: 32px;
+    line-height: 2px;
+}
+
+
+.inf {
+    margin-left: 30px;
+    visibility: hidden;
+}
+.fp:hover + .inf {
+    visibility: visible;
+}
+.sp:hover + .inf {
+    visibility: visible;
+}
+.tp:hover + .inf {
+    visibility: visible;
+}
+
+body {
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+
+}
+
+/* .partTwo p {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 40px;
+    outline-style: double;
+    outline-color: red;
+}
+
+.mainDiv {
+    margin-left: 80px;
+    opacity: 0.90099;
+}
+.mainDiv img {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 260px;
+    height: 385px;
+}
+.mainDiv h4 {
+    padding-left: 20px;
+}
+
+.row {
+    display: flex;
+}
+.fp {
+    background-color: rgb(180, 247, 252);
+    border-radius: 10px;
+}
+.sp {
+    margin-left: 100px;
+    background-color: rgb(240, 224, 224);
+    border-radius: 10px;
+}
+.tp {
+    margin-left: 100px;
+    background-color: rgb(240, 224, 224);
+    border-radius: 10px;
+}
+
+.ok {
+    display: block;
+}
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+.inf {
+    visibility: hidden;
+    margin-top: -40px;
+    padding-top: 25px;
+    background-color: rgb(240, 224, 224);
+    text-decoration: none;
+}
+.fp:hover + .inf {
+    visibility: visible;
+    border-radius: 10px;
+}
+.sp:hover + .inf {
+    visibility: visible;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.tp:hover + .inf {
+    visibility: visible;
+    border-radius: 10px;
+    margin-left: 100px;
+} */
